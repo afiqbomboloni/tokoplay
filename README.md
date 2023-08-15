@@ -1,5 +1,13 @@
 # Tokopedia Play Gigih
 Tokopedia Play Gigih is a website that uses the MERN technology (MongoDb, Express, React, Nodejs) stack. This project is intended to fulfill the final project of GENERASI GIGIH 3.0.
+
+## Technical Requirements
+
+a. API: Node Js, Express, Railway
+b. Database: Mongodb, Mongoose
+c. React Hooks
+d. React Router
+
 ## Documentation
 **[Server Docummentation](https://github.com/afiqbomboloni/tokoplay/tree/master/server#readme)**
 
