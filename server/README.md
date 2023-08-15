@@ -7,7 +7,7 @@
 ```
 [
 	{
-	_id:  "64c219a75eadf975dbe85de2",
+	_id:  <ObjectId>,
 	username:"james32",
 	password:"mypassword",
 	avatar:"https://sm.ign.com/ign_nordic/cover/a/avatar-gen/avatar-generations_prsz.jpg"
@@ -20,10 +20,11 @@
 ```
 [
 	{
-	_id:  "64c2178d5172e47351801427",
+	_id:  <ObjectId>,
 	urlImageThumb:  "https://img.youtube.com/vi/PKg-HPFISoE/sddefault.jpg",
-	product_id:["64c2178c5172e47351801420", "64c21784e24084a279c42495"], //contains specified _ids belonging to the product associated with the video
-	comment_id:["64c21a7bd3df1d812c9f88ef"] //contains specified _ids belonging to the comment associated with the video
+	title: "Kahf Review",
+	product_id:[<ObjectId>], //contains specified _ids belonging to the product associated with the video
+	comment_id:[<ObjectId>] //contains specified _ids belonging to the comment associated with the video
 	}
 ]
 ```
@@ -33,7 +34,7 @@
 ```
 [
 	{
-	_id:"64c2178c5172e47351801420",
+	_id:<ObjectId>,
 	linkProduct:  "https://www.tokopedia.com/guardian-officia/kahf-oil-acne-care-face-wash-100ml?extParam=ivf%3Dfalse&src=topads",
 	title:"KAHF OIL&ACNE CARE FACE WASH 100ML",
 	price:30500
@@ -45,7 +46,7 @@
 ```
 [
 	{
-	_id:"64c21a7bd3df1d812c9f88ef",
+	_id:<ObjectId>,
 	username:  "james32",
 	comment:  "Nyaman di muka,ga bikin kering",
 	timestamp:  "2023-07-27T07:19:23.204+00:00"
