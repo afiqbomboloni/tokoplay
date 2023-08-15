@@ -4,8 +4,11 @@ Tokopedia Play Gigih is a website that uses the MERN technology (MongoDb, Expres
 ## Technical Requirements
 
 a. API: Node Js, Express, Railway
+
 b. Database: Mongodb, Mongoose
+
 c. React Hooks
+
 d. React Router
 
 ## Documentation
