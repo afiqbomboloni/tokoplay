@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Tokopedia Play Gigih
+Tokopedia Play GIGIH is a website for viewing product video reviews interactively because there is a live comment feature. This project uses the React library and several other technologies such as Tailwind css.
+## Features
+a. **Multi-Page Experience**:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+-   Home Page: Display a list of YouTube video thumbnails.
+-   Video Detail Page: View detailed information about a selected video, including embedded YouTube video, product list, comment section, and comment submission form.
 
-## Available Scripts
+b. **YouTube Video List**:
 
-In the project directory, you can run:
+-   The home page showcases a list of YouTube video thumbnails, allowing users to quickly preview available videos.
 
-### `npm start`
+c. **Video Detail Page**:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-   Users can click on a video thumbnail to access the video's detail page, where they can explore associated products, watch the embedded YouTube video, view comments, and submit their own comments.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+d. **Product List and Comment Section**:
 
-### `npm test`
+-   The video detail page displays a list of related products, the embedded YouTube video, and a section for user comments.
+-   Users can interact with the comment section and submit comments via a user-friendly form.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+e. **Comment Submission**:
 
-### `npm run build`
+-   Users can easily submit comments by providing their name and comment content in the comment submission form.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+f. **Real-time Comment Display**:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-   After successfully submitting a comment, users can see their comment appear in the comment section in real-time.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+g. **Search Functionality**:
 
-### `npm run eject`
+-   Users can search for videos by their title, enhancing the browsing experience.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+h. **User Profile and Avatar**:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-   The upper-right corner of the home page features a user profile section, including an avatar.
+## How to Install and Run
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Prerequisites 
+Before running this project, make sure you have the following installed on your machine: 
+- [Node.js](https://nodejs.org/en)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## How to Run
 
-## Learn More
+- Clone the repo and open the project.
+	```
+	git clone https://github.com/afiqbomboloni/tokoplay.git
+	cd client
+	```
+- Install the dependencies
+`npm install`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Set up environment variables:
+Create  `.env`  file
+    
+    You can copy the  `env`  and change its values.
+    ```
+    cp env.example .env
+    ```
+- Running Application:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+	```
+	npm run start
+Application will running on port :3000
