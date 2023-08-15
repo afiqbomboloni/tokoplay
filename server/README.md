@@ -365,8 +365,8 @@ Before running this project, make sure you have the following installed on your 
 
 - Clone the repo and open the project.
 	```
-	git clone https://github.com/afiqbomboloni/tokopediaplay.git
-	cd tokopediaplay
+	git clone [https://github.com/afiqbomboloni/tokopediaplay.git](https://github.com/afiqbomboloni/tokoplay.git)
+	cd server
 	```
 - Install the dependencies
 `npm install`
